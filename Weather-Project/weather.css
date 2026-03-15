@@ -1,0 +1,152 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content{
+    height: 525px;
+    width: 475px;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: rgba(180, 132, 132, 0.3);
+    backdrop-filter: blur(4px);
+    border: 3px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family:sans-serif;
+    font-size: 35px;
+    margin-top: 35px;
+}
+input{
+    color: white;
+    padding-left: 23px;
+    border-style: solid;
+    display: inline-block;
+    width: 83%;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 24px;
+    border-color: aliceblue;
+    border-radius: 27px;
+    background: rgba(173, 131, 131, 0.3);
+    border: 3px solid rgba(255,255,255,0.4);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    font-size: larger;
+}
+input:focus{
+    outline: none;
+    border-color: rgba(255,255,255,0.6);
+    box-shadow: 0 0 15px rgba(255,255,255,0.4);
+}
+.search{
+    position: absolute;
+    margin-top: 29px;
+    right: 33px;
+    width: 48px;
+    height: 40px;
+    border: none;
+    border-radius: 8px 18px 18px 8px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.search img{
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+}
+.search:active{
+    background-color: rgba(255,255,255,0.9);
+    outline: 1px solid rgba(255,255,255,0.6);
+}
+.loc{
+    display: block;
+    text-align: center;
+    height: 40px;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0px;
+}
+.date{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    height: 25px;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.text{
+    color: rgb(75, 164, 164);
+}
+.icons{
+    position: relative;
+    top: -30px;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: none;
+}
+.weathericon{
+    
+    height: 100%;
+    margin-right: 20px;
+    position: absolute;
+    left: 3%;
+
+}   
+.temp{
+    position: absolute;
+    right: 10%;
+    font-size: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.detail{
+    position: relative;
+    top: 50%;
+    font-size: 25px;
+}
+.extra{
+    display: grid;
+    grid-template-columns: 33% 1px 33% 1px 1fr;
+}
+.vr{
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 137px;
+}
+.logo{
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 2px;
+}
+.align{
+    margin-top: -24px;
+    margin-bottom: 0px;
+}
+.fnt{
+    font-weight: normal;
+    margin-top: -18px;
+}

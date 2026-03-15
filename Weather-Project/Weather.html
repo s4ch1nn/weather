@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js"></script>
+</head>
+<body>
+    <h1>The Urban Weather Hub</h1>
+    <div class="content">
+        <input type="text"  class="ip" id = "city"  onkeydown="if(event.key === 'Enter'){search();}" placeholder="Enter city name...">
+        <button class="search" id="btn" onclick="search()"><img src="images/search.png" alt=""></button>
+        <p class="loc"></p>
+        <p class="date"></p>
+        <div class="icons"></div>
+        <hr style="width: 95%; margin-bottom: 0px; background-color: opacity(0.1);">
+        <div class="extra">
+            <div class="inside">
+                <img class="logo" src="images/humidity.png" alt="">
+                <p class="date align">Humidity</p>
+                <p class="humidity"></p>
+            </div>
+            <div class="vr"></div>
+            <div class="inside">
+                <img class="logo" src="images/wind.png" alt="">
+                <p class="date align">Wind Speed</p>
+                <p class="wind"></p>
+            </div>
+            <div class="vr"></div>
+            <div class="inside">
+                <img class="logo" src="images/visibility.png" alt="">
+                <p class="date align">Visibility</p>
+                <p class="visibility"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
