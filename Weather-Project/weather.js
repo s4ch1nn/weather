@@ -1,6 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
-
-    function changeBackground() {
+function changeBackground() {
         const now = new Date();
         const hours = now.getHours();
         const body = document.body;
@@ -21,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    changeBackground();
-});
+changeBackground();
+
 search("712c47667bc5d3bae40c6a01fe38e808" , "delhi");
 
 async function search( api = "712c47667bc5d3bae40c6a01fe38e808",
